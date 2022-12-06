@@ -1,0 +1,33 @@
+https://www.java.com/en/download/?fbclid=IwAR2oZ_eM0V71xvW8HHKKMP6UvDLaN2pDP-zoJHCYTdJFArKEZinJBJQ0KbY
+java -version in cmd
+python --version
+
+download cassandra
+https://dlcdn.apache.org/cassandra/3.11.14/apache-cassandra-3.11.14-bin.tar.gz
+extract it and keep it in program files folder
+copy the folder location and set into the environment variables with name CASSANDRA_HOME and path as C:\Program Files\apache-cassandra-3.11.14
+now save it and open a new cmd
+echo %CASSANDRA_HOME% 
+it return the file location
+
+https://www.microsoft.com/en-us/download/details.aspx?id=26999
+download 
+
+for sigar 
+go to folder conf, then file cassandra-env.ps1 and open it
+go to line 357 and comment it.
+
+# Now we need to install Apache thrift 
+# https://dlcdn.apache.org/thrift/0.17.0/thrift-0.17.0.exe
+
+python 2.7 is must for cqlsh
+quit;
+
+pip install pyreadline
+python -m pip install --upgrade pip
+
+
+for heap management
+C:\Program Files\apache-cassandra-3.11.14\conf ->jvm.options
+and in heap section 
+https://www.youtube.com/watch?v=hJxlkHafYsQ&ab_channel=ProgrammingwithDr.Hayes 15:00
